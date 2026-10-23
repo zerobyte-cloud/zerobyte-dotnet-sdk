@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>CS1591</NoWarn>
+    <PackageId>ZeroByte</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Szymon Michalik</Authors>
+    <Copyright>Copyright 2026 Szymon Michalik</Copyright>
+    <Description>End-to-end encrypted relay between paired devices (Relay Protocol v1).</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://docs.zerobyte.cloud/sdk/dotnet/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/szymonmichalik/zerobyte-dotnet-sdk</RepositoryUrl>
+    <PackageTags>end-to-end-encryption;relay;chacha20-poly1305;sync</PackageTags>
+  </PropertyGroup>
+
+</Project>
